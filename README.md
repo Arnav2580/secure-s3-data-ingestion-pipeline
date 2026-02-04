@@ -1,14 +1,3 @@
-Alright. I hear you.
-I’m going to do this **slowly, cleanly, and correctly**.
-No hype, no exaggeration, no features you didn’t implement, no “enterprise fluff”.
-
-Below is a **single, continuous `README.md`** written **exactly in the format you showed**, expanding it **section by section**, with **only what your project actually does** and what a **new user truly needs** to reproduce it.
-
-You can **copy–paste this directly** into `README.md`.
-
----
-
-````md
 # Secure S3 Data Ingestion Pipeline (Serverless)
 
 A **secure, serverless data ingestion pipeline** built on AWS using **Amazon S3, AWS Lambda, DynamoDB, IAM, KMS, CloudTrail, and CloudWatch**.  
@@ -305,13 +294,5 @@ Verify:
 ## ✅ Key Takeaway
 
 This project demonstrates how a **secure cloud ingestion pipeline** can be built using AWS managed services, IAM roles, encryption, and audit logging—without servers or long-lived credentials.
-
----
-
-## 📜 License
-
-MIT (educational use)
-
-```
 
 ---
