@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowS3AndLambdaUse",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": [
+          "s3.amazonaws.com",
+          "lambda.amazonaws.com"
+        ]
+      },
+      "Action": [
+        "kms:Encrypt",
+        "kms:Decrypt",
+        "kms:GenerateDataKey"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
